@@ -9,6 +9,6 @@ The root node(root-node-id) runs **coordinator.c** while every other node runs *
 For further details, look at **DesignDoc.pdf**.
 
 To execute:
-  $ gcc node.c -o node<br \>
-  $ gcc coordinator.c<br \>
+  $ gcc node.c -o node  
+  $ gcc coordinator.c  
   $ ./a.out <total-num-of-nodes> <root-node-id> <input-file>
